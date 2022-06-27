@@ -1,4 +1,4 @@
-import { con } from '../repository/connection.js'
+import { con } from './connection.js'
 
 export async function InserirAnime(Nome) {
     const comando = `
